@@ -13,6 +13,11 @@
 		A165B32F23CC1524006D9B32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A165B32D23CC1524006D9B32 /* Main.storyboard */; };
 		A165B33123CC1526006D9B32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A165B33023CC1526006D9B32 /* Assets.xcassets */; };
 		A165B33423CC1526006D9B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A165B33223CC1526006D9B32 /* LaunchScreen.storyboard */; };
+		A165B33C23CC160C006D9B32 /* Contestant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A165B33B23CC160C006D9B32 /* Contestant.swift */; };
+		A165B33E23CC1639006D9B32 /* Raffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A165B33D23CC1639006D9B32 /* Raffle.swift */; };
+		A165B34023CC16DE006D9B32 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A165B33F23CC16DE006D9B32 /* Address.swift */; };
+		A1E74ABB23D2763800965415 /* JSONConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E74ABA23D2763800965415 /* JSONConvert.swift */; };
+		A1E74ABD23D521FD00965415 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E74ABC23D521FD00965415 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A165B33023CC1526006D9B32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A165B33323CC1526006D9B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A165B33523CC1526006D9B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A165B33B23CC160C006D9B32 /* Contestant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contestant.swift; sourceTree = "<group>"; };
+		A165B33D23CC1639006D9B32 /* Raffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raffle.swift; sourceTree = "<group>"; };
+		A165B33F23CC16DE006D9B32 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		A1E74ABA23D2763800965415 /* JSONConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONConvert.swift; sourceTree = "<group>"; };
+		A1E74ABC23D521FD00965415 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 		A165B32623CC1524006D9B32 /* Chicken Dinner */ = {
 			isa = PBXGroup;
 			children = (
+				A165B33F23CC16DE006D9B32 /* Address.swift */,
+				A165B33B23CC160C006D9B32 /* Contestant.swift */,
+				A1E74ABA23D2763800965415 /* JSONConvert.swift */,
+				A165B33D23CC1639006D9B32 /* Raffle.swift */,
+				A1E74ABC23D521FD00965415 /* Utils.swift */,
 				A165B32723CC1524006D9B32 /* AppDelegate.swift */,
 				A165B32923CC1524006D9B32 /* FirstViewController.swift */,
 				A165B32B23CC1524006D9B32 /* SecondViewController.swift */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E74ABB23D2763800965415 /* JSONConvert.swift in Sources */,
+				A165B34023CC16DE006D9B32 /* Address.swift in Sources */,
+				A165B33C23CC160C006D9B32 /* Contestant.swift in Sources */,
 				A165B32C23CC1524006D9B32 /* SecondViewController.swift in Sources */,
+				A165B33E23CC1639006D9B32 /* Raffle.swift in Sources */,
 				A165B32823CC1524006D9B32 /* AppDelegate.swift in Sources */,
 				A165B32A23CC1524006D9B32 /* FirstViewController.swift in Sources */,
+				A1E74ABD23D521FD00965415 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
